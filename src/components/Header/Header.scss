@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 64px;
+  width: 100%;
+  z-index: 10;
+
+  .navbar {
+    display: flex;
+    flex: 1 1 auto;
+    min-height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #031d33 !important;
+  }
+  .navbar-collapse {
+    a {
+      color: white;
+      padding-left: 15px;
+    }
+  }
+}
